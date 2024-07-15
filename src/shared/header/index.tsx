@@ -1,10 +1,10 @@
-import "./styles.module.css";
+import styles from "./styles.module.css";
 
 const HeaderShared = () => {
   return (
     <header>
       <nav>
-        <ul>
+        <ul className={styles.ul}>
           <li>Home</li>
           <li>About</li>
         </ul>

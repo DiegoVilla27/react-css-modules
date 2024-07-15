@@ -1,8 +1,8 @@
-import "./styles.module.css";
+import styles from "./styles.module.css";
 
 const HomePage = () => {
   return (
-    <form>
+    <form className={styles.form}>
       <h1>Login</h1>
       <input
         placeholder="Email"
